@@ -4,8 +4,7 @@
 body{
     margin:0;
     padding:0;
-    width:720px;
-    height:1280px;
+    
     
 }
 
@@ -18,7 +17,7 @@ body{
 
 .container{
     text-align:center;
-    padding-top:100px;
+    padding-top:20px;
     
     
 }
@@ -27,14 +26,14 @@ li{
     list-style-type: none;
     margin-top:50px;
     text-align:center;
-    padding:20px;
+    
 }
 
 li a{
     font-family:'Roboto';
     color:white;
     text-decoration:none;
-    font-size:80px;
+    
     
 }
 
@@ -45,8 +44,7 @@ li a{
 
 button, a{
     display:block;
-    width:800px;
-    height:500px;
+   
     margin:0px auto;
     padding:20px;
     color:white;
