@@ -8,6 +8,20 @@ body{
     
 }
 
+.navigation{
+    text-align: center;
+}
+
+.navigation li  {
+    
+    display:inline;
+    padding:10px;
+    margin:0 auto;
+}
+
+
+
+
 
 body{
     background-color:#ff6666;
@@ -42,18 +56,29 @@ li a{
 
 
 
-button, a{
+#btn1, #btn2, #btn3, #btn4, #btn5, #btn6,
+#btn7, #btn8, #btn9, #btn10, #btn11, #btn12,
+#btn13, #btn14, #btn15, #btn16, #btn17, #btn18,
+#btn19, #btn20, #btn21{
     display:block;
-   
+    text-decoration: none;
+    width:300px;
+    height:100px;
     margin:0px auto;
     padding:20px;
     color:white;
-    text-decoration:none;
     font-family:'Roboto';
     -webkit-text-stroke-width: 0.5px;
    -webkit-text-stroke-color: black;
-    font-size:50px;
-    background-size:500px;
+    font-size:30px;
+   
+    
+    
+    
+}
+
+a{
+    text-decoration:none;
     
 }
 
@@ -255,7 +280,4 @@ input{
 
 
 
-.navigation a{
-    font-size:30px;
-    display:inline;
-}
+
