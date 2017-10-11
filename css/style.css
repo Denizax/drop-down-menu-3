@@ -2,14 +2,27 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
 </style>
 body{
+    
     margin:0;
     padding:0;
     
     
 }
 
-.navigation{
+.nav{
+    font-size:40px;
     text-align: center;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+.navigation{
+    
+   text-align:center;
+   font-family: 'Roboto', sans-serif;
+    
 }
 
 .navigation li  {
@@ -17,6 +30,13 @@ body{
     display:inline;
     padding:10px;
     margin:0 auto;
+    color:white;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+    
 }
 
 
@@ -36,20 +56,7 @@ body{
     
 }
 
-li{
-    list-style-type: none;
-    margin-top:50px;
-    text-align:center;
-    
-}
 
-li a{
-    font-family:'Roboto';
-    color:white;
-    text-decoration:none;
-    
-    
-}
 
 
 
@@ -71,16 +78,13 @@ li a{
     -webkit-text-stroke-width: 0.5px;
    -webkit-text-stroke-color: black;
     font-size:30px;
-   
+    
     
     
     
 }
 
-a{
-    text-decoration:none;
-    
-}
+
 
 
 
@@ -109,7 +113,7 @@ a{
     
     
     background:url(../img/mexican_salad.jpg);
-    
+    background-position: center;
     
    
 }
@@ -125,15 +129,18 @@ a{
 #btn6{
     
    
-    background:url(../img/shopska_salad.jpg);
+    background:url(../img/shopska_salad.png);
     
+    background-position: left;
    
 }
 
 
 #btn7{
     background:url('../img/french_onion.jpg');
-    background-size:800px;
+    background-size:300px;
+    background-position:center;
+    
     
 }
 
@@ -141,39 +148,46 @@ a{
     
     
     background:url('../img/lasagna.jpg');
-    
+    background-position: center;
 }
 
 
 
 #btn9{
 background:url('../img/Chicken-Mushroom-Risotto_2-680x486.jpg');
+    background-position: center;
+    background-size:300px;
+    
 }
 
 #btn10{
     background:url('../img/pasta_carbonara.jpg');
-    background-size:800px;
+    background-position: center;
+    background-size:300px;
 }
 
 #btn11{
     background:url('../img/pizza.jpg');
-    
+    background-position: center;
 }
 
 #btn12{
     background:url('../img/roast-beef.jpg');
     background-position:center;
+    background-size:300px;
 }
 
 #btn13{
     
     background:url('../img/fish_fillets.jpg');
-    
+    background-position:center;
+    background-size:300px;
 }
 
 #btn14{
     background:url('../img/southern-fried-chicken.jpg');
-  
+  background-position:center;
+    background-size:300px;
 }
 
 
@@ -182,13 +196,15 @@ background:url('../img/Chicken-Mushroom-Risotto_2-680x486.jpg');
 #btn15{
     background:url('../img/banana-split-17976-1.jpg');
     background-position:center;
+    background-size:300px;
     
    
 }
 
 #btn16{
     background:url('../img/IMG_5537-1.jpg');
-    background-position:top;
+    background-position:center;
+    background-size:600px;
     
 }
 
@@ -196,7 +212,7 @@ background:url('../img/Chicken-Mushroom-Risotto_2-680x486.jpg');
 
 #btn17{
     background:url('../img/blueberry.cheesecake.jpg');
-    background-size:1000px;
+    background-size:300px;
     
     
     
@@ -206,6 +222,7 @@ background:url('../img/Chicken-Mushroom-Risotto_2-680x486.jpg');
 #btn18{
     background:url('../img/easy-molten-chocolate-souffle-58756-1.jpg');
     background-position:center;
+    background-size:300px;
   
     
     
@@ -215,7 +232,7 @@ background:url('../img/Chicken-Mushroom-Risotto_2-680x486.jpg');
 #btn19{
     background:url('../img/creme-caramel-74779-1.jpg');
     background-position:center;
-    opacity:0.9;
+    background-size:300px;
     
     
 }
@@ -223,6 +240,7 @@ background:url('../img/Chicken-Mushroom-Risotto_2-680x486.jpg');
 #btn20{
     background:url('../img/easy-pancakes_1980x1320-118377-1.jpg');
     background-position:center;
+    background-size:300px;
     
     
    
@@ -230,22 +248,23 @@ background:url('../img/Chicken-Mushroom-Risotto_2-680x486.jpg');
 
 .container{
     color:white;
-    font-size:50px;
+    font-size:30px;
+    
     position:relative;
 }
 
 
 .container a{
     color:#33cccc;
-    padding-top:80px;
+    padding-top:20px;
 }
 
 
 .input {
    position:relative;
-   top:250px;
+   top:130px;
    font-family:'Roboto', sans-serif;
-    font-size:70px;
+    font-size:40px;
     text-align:center;
     
 }
@@ -260,7 +279,7 @@ label{
 
 input{
    margin-top:50px;
-   font-size:35px;
+   font-size:20px;
    font-family:'Roboto' , sans-serif;
    color:#33cccc;
    border: 2px solid red;
@@ -270,12 +289,13 @@ input{
 
 #schedule{
     margin-top:60px;
-    width:400px;
-    height:100px;
-    font-size:30px;
+    width:250px;
+    height:50px;
+    font-size:20px;
     font-family:'Roboto', sans-serif;
     color:white;
     background-color:#33cccc;
+    
 }
 
 
